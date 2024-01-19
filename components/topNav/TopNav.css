@@ -1,0 +1,10 @@
+.cse4050-logo {
+  flex-grow: 1;
+  flex-wrap: nowrap;
+  color: dark;
+}
+
+.cse4050-toolbar {
+  background-color: #1D262D;
+  flex-wrap: wrap;
+}
