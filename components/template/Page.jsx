@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 
 import TopNav from '../topNav/TopNav';
+import TopNav2 from '../topNav/TopNav2';
 
 export default function Page() {
   const navigation = useNavigation();
@@ -12,16 +13,15 @@ export default function Page() {
 
   return (
     <div>
-      <TopNav />
-
+      <TopNav2 />
       <div id="detail" className="container-fluid">
         <div className="row">
           <div className="col">
-          {pageLoading ? (
-            <center><p>LOADING ....</p></center>            
-          ) : (
-            <Outlet />
-          )}
+            {pageLoading ? (
+              <center><p>LOADING ....</p></center>
+            ) : (
+              <Outlet />
+            )}
           </div>
         </div>
       </div>

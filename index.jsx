@@ -21,7 +21,7 @@ const Protected = function ({ children }) {
 
 const LoggedIn = function ({ children }) {
   const localUser = localStorage.getItem("user_name");
-  return localUser ? <Navigate to="/" replace /> : children;
+  return localUser ? <Navigate to="/task" replace /> : children;
 };
 
 const theme = createTheme({
@@ -39,11 +39,11 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home />,
+        element: <LoggedIn><Home /></LoggedIn>,
       },
       {
         path: "/home",
-        element: <Home />,
+        element: <LoggedIn><Home /></LoggedIn>,
       },
       {
         path: "/task",

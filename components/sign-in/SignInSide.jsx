@@ -47,7 +47,7 @@ export default function SignInSide() {
                 // setUser(user.first_name + ' ' + user.last_name); // not sure what this is for
             })
             .then(() => {
-                window.location.href = "/"; //After successful login, redirect to the homepage
+                window.location.href = "/task"; //After successful login, redirect to task page
             })
             .catch(() => {
                 alert('Login failed, please try again');
