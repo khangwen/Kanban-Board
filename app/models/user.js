@@ -10,6 +10,7 @@ import mongoose from 'mongoose';
 var userSchema = new mongoose.Schema({
     user_id: mongoose.Schema.Types.ObjectId,
     user_name: String,
+    salt: String,
     password: String,
     first_name: String,
     last_name: String,

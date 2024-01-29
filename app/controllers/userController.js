@@ -1,4 +1,5 @@
 import User from '../models/user.js';
+import crypto from 'crypto';
 
 const login = ((req, res, next) => {
     let userName = req.body.user_name;
@@ -6,7 +7,10 @@ const login = ((req, res, next) => {
 
     User.findOne({ user_name: userName })
         .then((user) => {
-            if (user.password != password_attempt) {
+            let salt = user.salt;
+            let key = crypto.pbkdf2Sync(password_attempt, salt, 100000, 64, 'sha512').toString('hex');
+
+            if (user.password != key) {
                 res.status(400).send("Wrong password");
             }
 
@@ -73,6 +77,8 @@ const store = ((req, res) => {
     let password = req.body.password;
     let firstName = req.body.first_name;
     let lastName = req.body.last_name;
+    let salt = crypto.randomBytes(16).toString('hex');
+    let key = crypto.pbkdf2Sync(password, salt, 100000, 64, 'sha512').toString('hex');
 
     User.findOne({ user_name: userName })
         .then((user) => {
@@ -81,7 +87,8 @@ const store = ((req, res) => {
         .catch(() => {
             User.create({
                 user_name: userName,
-                password: password,
+                salt: salt,
+                password: key,
                 first_name: firstName,
                 last_name: lastName
             }).then(
