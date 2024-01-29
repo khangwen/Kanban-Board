@@ -108,6 +108,7 @@ export default function TaskList() {
     }
     axios.post('http://localhost:3000/api/tasks', {
       description: newTaskDescription,
+      user_name: localStorage.getItem('user_name'),
       type_id: taskTypes[0]._id
     })
       .then(res => res.data)
