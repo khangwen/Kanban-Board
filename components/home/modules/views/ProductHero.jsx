@@ -4,7 +4,7 @@ import Typography from '../components/Typography';
 import ProductHeroLayout from './ProductHeroLayout';
 
 const backgroundImage =
-  'https://images.unsplash.com/photo-1534854638093-bada1813ca19?auto=format&fit=crop&w=1400';
+  'https://i.ibb.co/PTdCLKt/scenery.jpg';
 
 export default function ProductHero() {
   return (
