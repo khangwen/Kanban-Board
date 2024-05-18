@@ -1,5 +1,5 @@
 # Kanban-Board
-A personal project for learning purposes. It is a Kanban Board that keeps tracks of task for users.
+A personal project for learning purposes. It is a Kanban Board that keeps track of tasks for users.
 
 ## Table of Contents
 - [Screenshots](#screenshots)
