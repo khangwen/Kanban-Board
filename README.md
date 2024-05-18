@@ -42,7 +42,7 @@ To get a local copy working, follow these steps.
 
 Clone the repository
 ```sh
-git clone https://github.com/your_username_/Project-Name.git
+git clone https://github.com/khangwen/Kanban-Board.git
 ```
 
 Install packages
