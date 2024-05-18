@@ -38,6 +38,27 @@ A personal project for learning purposes. It is a Kanban Board that keeps track 
 - [Demonstration of application](https://youtu.be/T3VKXPoGUYg)
 
 ## Installation
+To get a local copy working, follow these steps.
+
+Clone the repository
+```sh
+git clone https://github.com/your_username_/Project-Name.git
+```
+
+Install packages
+```sh
+npm install
+```
+
+Modify .env 'DB' value to your own database
+```
+DB={Add your databsae here}
+```
+
+Start server
+```sh
+npm start
+```
 
 ## License
 MIT License
