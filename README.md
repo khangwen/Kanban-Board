@@ -8,23 +8,21 @@ A personal project for learning purposes. It is a Kanban Board that keeps track 
 - [License](#license)
 
 ## Screenshots
-The landing page.
-
+### Landing Page.
 ![home][home]
 
-The signin page.
-
+### Signin Page.
 ![signin][signin]
 
-The signup page.
+### Signup Page.
 
 ![signup][signup]
 
-The tasks page.
+### Tasks Page.
 
 ![tasks][tasks]
 
-Demonstration of salting and hashing in database.
+### Demonstration of salting and hashing in database.
 
 ![salthash][salthash]
 
