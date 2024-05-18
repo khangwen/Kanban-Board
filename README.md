@@ -12,7 +12,7 @@ A personal project for learning purposes. It is a Kanban Board that keeps tracks
 ![signin][signin]
 ![signup][signup]
 ![tasks][tasks]
-![salthash][salthas]
+![salthash][salthash]
 
 [home]: public/imgs/home_ex.png
 [signin]: public/imgs/signin_ex.png
