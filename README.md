@@ -3,27 +3,26 @@ A personal project for learning purposes. It is a Kanban Board that keeps track 
 
 ## Table of Contents
 - [Screenshots](#screenshots)
+    - [Landing Page][#landing page]
+    - [Signin Page][#signin page]
 - [Demo](#demo)
 - [Installation](#installation)
 - [License](#license)
 
 ## Screenshots
-### Landing Page.
+### Landing Page
 ![home][home]
 
-### Signin Page.
+### Signin Page
 ![signin][signin]
 
-### Signup Page.
-
+### Signup Page
 ![signup][signup]
 
-### Tasks Page.
-
+### Tasks Page
 ![tasks][tasks]
 
-### Demonstration of salting and hashing in database.
-
+### Demonstration of salting and hashing in database
 ![salthash][salthash]
 
 [home]: public/imgs/home_ex.png
