@@ -35,6 +35,9 @@ A personal project for learning purposes. It is a Kanban Board that keeps track 
 [salthash]: public/imgs/salthash_ex.png
 
 ## Demo
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=T3VKXPoGUYg
+" target="_blank"><img src="public/imgs/home_ex.png" 
+alt="YouTube Demo" width="240" height="180" border="10" /></a>
 
 ## Installation
 
