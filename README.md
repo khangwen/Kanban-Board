@@ -3,8 +3,8 @@ A personal project for learning purposes. It is a Kanban Board that keeps track 
 
 ## Table of Contents
 - [Screenshots](#screenshots)
-    - [Landing Page][#landing page]
-    - [Signin Page][#signin page]
+    - [Landing Page](#landing page)
+    - [Signin Page](#signin page)
 - [Demo](#demo)
 - [Installation](#installation)
 - [License](#license)
